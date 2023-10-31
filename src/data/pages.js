@@ -190,7 +190,7 @@ export const pages = [
   },
   {
     url: "https://www.instagram.com/buspartyrd/",
-    name: "Bus Party | Santo Domingo, Dominican Republic | Instagram</A,",
+    name: "Bus Party",
   },
   {
     url: "https://www.instagram.com/gozan2tours/",
@@ -299,7 +299,7 @@ export const pages = [
   },
   {
     url: "https://www.instagram.com/vacacionarte.travel/",
-    name: "VacacionArte Travel &amp; Services ",
+    name: "VacacionArte Travel & Services ",
     addy: "@vacacionarte.travel",
   },
   {
@@ -442,7 +442,7 @@ export const pages = [
   },
   {
     url: "https://www.instagram.com/gozotravels/",
-    name: "Gozo Travels &amp; Transp SRL ",
+    name: "Gozo Travels",
     addy: "@gozotravels",
   },
   {
