@@ -1,19 +1,6 @@
 import React from "react";
 import styles from "./List.module.css"; // Import the CSS module
-
-const websites = [
-  {
-    id: 1,
-    name: "Tropical Dreams Resort",
-    url: "https://www.tropicaldreamsresort.com",
-  },
-  {
-    id: 2,
-    name: "Futuristic Oasis Retreattt",
-    url: "https://www.futuristicoasis.com",
-  },
-  // Add more website objects as needed
-];
+import { pages } from "@/data/pages";
 
 const List = () => {
   return (
@@ -21,11 +8,11 @@ const List = () => {
       <div className={styles.websiteListContainer}>
         <h1 className={styles.header}>Discover Tropical Paradise</h1>
         <div className={styles.websiteList}>
-          {websites.map((website) => (
-            <div className={styles.websiteCard} key={website.id}>
-              <h2>{website.name}</h2>
-              <a href={website.url} target="_blank" rel="noopener noreferrer">
-                Visit Website
+          {pages.map((page) => (
+            <div className={styles.websiteCard} key={page.id}>
+              <h2>{page.name}</h2>
+              <a href={page.url} target="_blank" rel="noopener noreferrer">
+                Visit page <span> {page.addy}</span>
               </a>
             </div>
           ))}
