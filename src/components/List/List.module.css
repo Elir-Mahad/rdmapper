@@ -1,0 +1,78 @@
+/* styles.module.css */
+
+.page {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #2a6495, #ffffff);
+  /* Gradient from deep blue to white */
+}
+
+.websiteListContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.header {
+  font-size: 48px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.websiteList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.websiteCard {
+  background-color: #ff6f61; /* Coral red card background */
+  color: #ffffff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.websiteCard:hover {
+  transform: scale(1.05);
+}
+
+.websiteCard h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.websiteCard a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.websiteCard a:hover {
+  color: #ffcb77; /* Yellow hover color */
+}
+
+/* Beachy elements */
+.page::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url("https://cityfurnish.com/blog/wp-content/uploads/2023/08/beach-near-hotel-min.jpg")
+    no-repeat center center/cover;
+  /* Replace 'beach.jpg' with your beach image */
+  z-index: -1;
+  opacity: 0.5;
+}

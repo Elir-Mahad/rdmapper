@@ -1,3 +1,4 @@
+import List from "@/components/List/list";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
@@ -11,6 +12,7 @@ export default function Home() {
 
       <main>
         <h1>Rd Mapper</h1>
+        <List />
       </main>
 
       <footer>
