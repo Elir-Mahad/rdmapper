@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  max-width: 50rem;
   background: linear-gradient(to bottom, #2a6495, #ffffff);
   /* Gradient from deep blue to white */
 }

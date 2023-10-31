@@ -6,7 +6,7 @@ const List = () => {
   return (
     <di className={styles.page}>
       <div className={styles.websiteListContainer}>
-        <h1 className={styles.header}>Discover Tropical Paradise</h1>
+        <h1 className={styles.header}>Discover Activites in RD</h1>
         <div className={styles.websiteList}>
           {pages.map((page) => (
             <div className={styles.websiteCard} key={page.id}>

@@ -11,7 +11,6 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Rd Mapper</h1>
         <List />
       </main>
 
